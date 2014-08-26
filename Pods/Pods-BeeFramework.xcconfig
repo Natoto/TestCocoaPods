@@ -1,0 +1,6 @@
+PODS_BEEFRAMEWORK_CLANG_CXX_LANGUAGE_STANDARD = gnu++0x
+PODS_BEEFRAMEWORK_CLANG_CXX_LIBRARY = libstdc++
+PODS_BEEFRAMEWORK_CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES
+PODS_BEEFRAMEWORK_HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libz, $(SDKROOT)/usr/include/libxml2
+PODS_BEEFRAMEWORK_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/BeeFramework/services/bee.services.alipay/vendor/AlipaySDK/openssl/lib" "$(PODS_ROOT)/BeeFramework/services/bee.services.alipay/vendor/AlipaySDK/openssl/lib" "$(PODS_ROOT)/BeeFramework/services/bee.services.share.weixin/vendor/WeixinSDK"
+PODS_BEEFRAMEWORK_OTHER_LDFLAGS = -lWeChatSDK_armv7_armv7s -lcrypto -lsqlite3 -lssl -lxml2 -lz -framework AVFoundation -framework CFNetwork -framework CoreMedia -framework CoreVideo -framework MobileCoreServices -framework QuartzCore -framework Security -framework SystemConfiguration
